@@ -10,6 +10,17 @@ body {
 }
 .main-content{
     flex-grow: 1;
+    background-color: lightblue;
+    text-align: center;
+    border: 2px solid black;
+}
+.main-box{
+    text-align: center;
+    border: 2px solid;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: lightgray;
 }
 footer{
     color: #888888;
@@ -36,7 +47,7 @@ header a{
 }
 
 .potrait{
-    width:100%
+    width:250px;
 }
 
 input{
